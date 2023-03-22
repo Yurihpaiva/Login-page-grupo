@@ -43,6 +43,7 @@ nav {
     border-radius: 4px;
     cursor: pointer;
     margin-right: 20px;
+    background-color: transparent;
 }
 
 .icon-info {
@@ -63,6 +64,7 @@ nav {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .icon-header {
