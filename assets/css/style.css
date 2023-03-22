@@ -1,7 +1,74 @@
-*{
-  margin: 0;
+
+* {
+    text-decoration: none;
+      margin: 0;
   padding: 0;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 32px;
+    align-items: center;
+    font-family: Lato, Corbel, "Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+.img-logo {
+    width: 123px;
+    height: 24px;
+    padding: 8px 12px 8px 8px;
+}
+
+.link-nav {
+    padding: 8px 12px 8px 8px;
+}
+
+.div-header {
+    display: flex;
+    align-items: center;
+}
+
+.info-header {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.icon-info {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.text-info {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.btn-header {
+    margin-left: 20px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.icon-header {
+    width: 20px;
+    height: 20px;
+    }
 
 main {
 background-image: url(../Image/lycg-xl.jpg);
@@ -23,6 +90,4 @@ object-position:  center top;
    margin: auto;
    width: 50%;
    
-
-
 }
