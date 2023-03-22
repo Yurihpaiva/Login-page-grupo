@@ -1,5 +1,8 @@
+
 * {
     text-decoration: none;
+      margin: 0;
+  padding: 0;
 }
 
 header {
@@ -65,4 +68,26 @@ nav {
 .icon-header {
     width: 20px;
     height: 20px;
+    }
+
+main {
+background-image: url(../Image/lycg-xl.jpg);
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center center;
+background-size: cover;
+object-position:  center top;
+}
+
+
+.Barrapesquisa{
+    display: flex;
+    object-position: center;
+    border-radius: 5px;
+    border: 15px blue;
+    align-items: center;
+   text-align: center;
+   margin: auto;
+   width: 50%;
+   
 }
