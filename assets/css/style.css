@@ -79,6 +79,7 @@ background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
 object-position:  center top;
+
 }
 
 
@@ -90,6 +91,7 @@ object-position:  center top;
     align-items: center;
    text-align: center;
    margin: auto;
-   width: 50%;
+   width: 95%;
+    padding:  15px;
    
 }
