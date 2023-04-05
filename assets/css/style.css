@@ -1,15 +1,15 @@
 
 * {
     text-decoration: none;
-      margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 15px 32px;
+    padding: 15px 150px;
     align-items: center;
     font-family: Lato, Corbel, "Lucida Grande", "Lucida Sans Unicode", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 }
@@ -27,6 +27,7 @@ nav {
 
 .link-nav {
     padding: 8px 12px 8px 8px;
+    color: inherit;
 }
 
 .div-header {
@@ -43,6 +44,7 @@ nav {
     border-radius: 4px;
     cursor: pointer;
     margin-right: 20px;
+    background-color: transparent;
 }
 
 .icon-info {
@@ -55,28 +57,35 @@ nav {
     display: inline-block;
     vertical-align: middle;
     text-align: left;
+    
 }
 
 .btn-header {
     margin-left: 20px;
+    background-color: transparent;
     padding: 8px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    background-color: transparent;
 }
 
 .icon-header {
     width: 20px;
+    background-color: transparent;
     height: 20px;
     }
 
 main {
 background-image: url(../Image/img-fundo.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 height: 100vh;
 background-repeat: no-repeat;
 background-position: center center;
 background-size: cover;
 object-position:  center top;
+
 }
 
 
@@ -86,8 +95,17 @@ object-position:  center top;
     border-radius: 5px;
     border: 15px blue;
     align-items: center;
-   text-align: center;
+   text-align: left;
    margin: auto;
-   width: 50%;
-   
+   width: 78%;
+    padding:  15px;
+       
+}
+
+.Textocentral {
+    display: block;
+    padding-left: 10%;
+    padding-top: 150px;
+
+
 }
